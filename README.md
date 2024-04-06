@@ -27,6 +27,7 @@ To improve the performance i use the following strategies:
 - Stream processing: The file is read in chunks and processed in parallel by each thread to avoid memory issues.
 - Map Object: The results are stored in a Map object to make it faster to access the data.
 - Custom float parser: The default float parser in Javascript is slow. I created a custom float to int parser to improve the performance.
+- QuickSort: The results are sorted by station name with a custom quicksort algorithm to improve the performance.
 
 
 you can find the original challenge [here](https://github.com/gunnarmorling/1brc).
