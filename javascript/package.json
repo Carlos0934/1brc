@@ -1,0 +1,18 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "deno run --allow-read  ./src/calculate.ts   ../measurements.txt",
+    "start:medium": "deno run --allow-read --allow-net   ./src/calculate.ts   ../measurements-medium.txt",
+    "start:small": "deno run --allow-read --allow-net  ./src/calculate.ts   ../measurements-small.txt"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tsx": "^4.7.2"
+  },
+  "dependencies": {}
+}
